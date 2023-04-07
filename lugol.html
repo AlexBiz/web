@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>ЮжФарм - Люголь раствор для местного применения 1%</title>
+	<meta name="description" content="южфарм">
+	<meta name="keywords" content="южфарм">
+	<meta name="author" content="Sergey Lysenko">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Exo+2&subset=cyrillic,latin">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<script src="libs/modernizr/modernizr.js"></script>
+
+</head>
+
+<body onLoad="javascript:GetTime();">
+
+  <header>
+   <div class="timezone">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+          <form name="clock" class="clock">
+            <span>
+              <p><strong>Ваше время</strong></p>
+              <strong><input type="text" size="1" name="local"></strong>
+            </span>
+            <span>
+              <p>Калининград</p>
+              <input type="text" size="1" name="Kalin">
+            </span>
+            <span>
+              <p>Москва</p>
+              <input type="text" size="1" name="msw">
+            </span>
+            <span>
+              <p>Самара/Ижевск</p>
+              <input type="text" size="1" name="Samara">
+            </span>
+            <span>
+              <p>Новосибирск/Омск</p>
+              <input type="text" size="1" name="Novos">
+            </span>
+            <span>
+              <p>Иркутск</p>
+              <input type="text" size="1" name="Irk">
+            </span>
+            <span>
+              <p>Якутск/Чита</p>
+              <input type="text" size="1" name="Yak">
+            </span>
+            <span>
+              <p>Хабаровск/Владивосток</p>
+              <input type="text" size="1" name="msv">
+            </span>
+            <span>
+              <p>Магадан/Камчатский край</p>
+              <input type="text" size="1" name="wll">
+            </span>
+          </form>
+         </div>
+       </div>
+     </div>
+   </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="yp-header-logo">
+            <a href="index.html"><img src="img/logo/logo_192x75.png" alt="..."></a>
+            <h1>Современная Фармацевтика России</h1>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="yp-header-contact">
+            <div class="ttp">
+              <p>Время работы:</p>
+              <p>Пн-Пт с 8:00 до 17:00</p>
+              <p>E-mail: <a href="mailto:info@yuzhpharm.ru" class="border-link">info@yuzhpharm.ru</a></p>
+            </div>
+            <div class="tel">
+              <div class="line">
+                <p><i class="fa fa-phone"></i>5-35-65</p>
+                <p><i class="fa fa-phone"></i>5-35-77</p>
+              </div>
+              <div class="line">
+                <p><i class="fa fa-phone"></i>5-35-71</p>
+                <p><i class="fa fa-phone"></i>5-35-74</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-default" role="navigation">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Меню</button>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html">Главная</a></li>
+                  <li class="dropdown">
+                    <a href="about.html" class="dropdown-toggle" data-toggle="dropdown">О компании <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="about.html#history">История</a></li>
+                      <!--<li><a href="about.html#mission">Миссия</a></li>-->
+                      <li><a href="about.html#progress">Достижения</a></li>
+                      <li><a href="about.html#vacancy">Вакансии</a></li>
+                    </ul>
+                  </li>
+                  <li class="active"><a href="products.html">Продукция</a></li>
+                  <li><a href="news.html">Новости</a></li>
+                  <li class="dropdown">
+                    <a href="partners.html" class="dropdown-toggle" data-toggle="dropdown">Партнерам <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="partners.html#distributors">Дистрибьюторы</a></li>
+                      <!-- <li><a href="partners.html#suppliers">Поставщикам</a></li> -->
+                      <li><a href="partners.html#requisites">Реквизиты</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="certification.html">Сертификаты</a></li>
+                  <li><a href="contact.html">Контакты</a></li>
+                </ul>
+              </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+   <!-- НАВИГАЦИОННЫЙ МАРШРУТ - начало -->
+   <div class="nav-breadcrumb">
+     <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+           <ol class="breadcrumb">
+             <li><a href="index.html">Главная</a></li>
+             <li><a href="products.html">Продукция</a></li>
+             <li class="active">Люголь раствор для местного применения 1%</li>
+           </ol>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- НАВИГАЦИОННЫЙ МАРШРУТ - конец -->
+    <section class="yp-products"><!-- Блок ПРОДУКЦИЯ - начало -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="products-block">
+              <h3>Люголь раствор для местного применения 1%</h3>
+							<div class="yp-products-imgblock">
+								<img src="img/catalog/rastvori/lugol.jpg" alt="Люголь">
+							</div>
+							<span><strong>ИНСТРУКЦИЯ по применению лекарственного препарата для медицинского применения</strong></span>
+							<p><b>Регистрационный номер:</b> ЛП – 001397</p>
+							<p><b>Торговое название:</b> Люголь</p>
+							<p><b>МНН или группировочное название:</b> Йод+[Калия йодид+Глицерол]</p>
+							<p><b>Лекарственная форма:</b> Раствор для местного применения</p>
+							<p><b>Состав на 1г:</b></p>
+							<p><i>Активное вещество:</i> йод – 10 мг;</p>
+							<p><i>Вспомогательные вещества:</i> калия йодид– 20 мг; глицерол – 940 мг; вода очищенная –30 мг.</p>
+							<p><b>Описание:</b> Прозрачная сиропообразная жидкость красно-бурого цвета с запахом йода. При высвобождении из флакона препарат выходит в виде струи жидкости.</p>
+							<p><b>Фармакотерапевтическая группа:</b> Антисептическое  средство.</p>
+							<p><b>Код ATX:</b> R02AA20</p>
+							<p><b>Фармакологические свойства:</b> Основным действующим веществом является молекулярный йод, оказывающий антисептический и местнораздражающий эффект. Оказывает бактерицидное действие в отношении грамотрицательной и грамположительной флоры, а также действует на патогенные грибы (в т.ч. дрожжи); Staphylococcus spp. более устойчивы к йоду, однако при длительном применении препарата в 80% случаев отмечается подавление стафилококковой флоры; Pseudomonas aeruginosa устойчива к действию препарата. При нанесении на обширные поверхности кожи и слизистых оболочек йод оказывает резорбтивное действие: участвует в синтезе Т3 и Т4, обладает протеолитическим действием. Калия йодид улучшает растворение йода в воде. Глицерол оказывает смягчающее действие. Препарат малотоксичен.</p>
+							<p><b>Фармакокинетика:</b> В случае применения препарата в рекомендованных дозах, резорбция йода через кожу и слизистые оболочки полости рта незначительная. При контакте со слизистыми оболочками на 30 % превращается в йодиды. При случайном проглатывании йод быстро всасывается. Абсорбированная часть хорошо проникает в органы и ткани (в т.ч. ткани щитовидной железы). Выводится главным образом почками, в меньшей степени кишечником и с потом. Проникает в грудное молоко.</p>
+							<p><b>Показания к применению:</b></p>
+							<p>Инфекционно-воспалительные заболевания слизистой оболочки полости рта и глотки у взрослых и детей.</p>
+							<p><b>Противопоказания:</b> Декомпенсированные заболевания печени и почек. Повышенная чувствительность к йоду и другим компонентам препарата.</p>
+							<p><b>С осторожностью:</b> Гипертиреоз, герпетиформный дерматит, детский возраст до 12 лет.</p>
+							<p><b>Применение при беременности и в период лактации:</b> Применение при беременности противопоказано. Йод проникает в молоко матери и потенциально может оказывать влияние на функцию щитовидной железы у детей, находящихся на грудном вскармливании. Применение во время грудного вскармливания возможно, если потенциальная польза для матери превышает возможный риск для ребенка. Необходимо проконсультироваться с врачом.</p>
+							<p><b>Способ применения и дозы:</b></p>
+							<p>Местно. Применяют 4-6 раз в сутки для орошения слизистой оболочки полости рта, глотки, зева, осуществляя нанесение препарата одним нажатием головки распылителя. Впрыск препарата точечный и распылитель в зависимости от заболевания необходимо направлять прямо на очаг воспаления.</p>
+							<p>В момент впрыскивания рекомендуется задержать дыхание.</p>
+							<p>В случае использования новой упаковки лекарственного препарата следует снять защитный колпачок, надеть головку распылителя с наконечником и несколько раз нажать на головку распылителя. После использования препарата снимать головку распылителя с наконечником не рекомендуется.</p>
+							<p>Не допускать попадание препарата в глаза. Если это произошло, глаза следует промыть большим количеством воды или раствором натрия тиосульфата.</p>
+							<p>Если симптомы воспаления не уменьшаются или усиливаются после 2-3 дней терапии, то необходимо проконсультироваться с врачом. Не рекомендуется для длительного (более 2 недель) применения.</p>
+							<p><b>Побочное действие:</b> Аллергические реакции. При длительном применении явления «йодизма», ринит, крапивница, ангионевротический отек, слюнотечение, слезотечение, угревая сыпь. Если при применении препарата проявляется указанное или иное побочное действие, необходимо проконсультироваться с врачом.</p>
+							<p><b>Передозировка:</b></p>
+							<p>Симптомы: раздражение верхних дыхательных путей (ожог, ларинго-, бронхоспазм); при попадании внутрь - раздражение слизистых оболочек желудочно-кишечного тракта, гемолиз, гемоглобинурия; летальная доза – около 3 г.</p>
+							<p>Лечение: промывание желудка 0,5 % раствором натрия тиосульфата, растворами натрия гидрокарбоната, в/в вводится натрия тиосульфат 30 % - до 300 мл.</p>
+							<p><b>Особые указания:</b></p>
+							<p>Необходимо избегать регулярного использования у пациентов с гипертиреозом (тиреотоксикозом). Детям до 12 лет применять после консультации с врачом. Может повлиять на результаты лабораторных данных при исследовании гормонов щитовидной железы.</p>
+							<p>Солнечный свет и температура выше 40 °С ускоряют распад активного йода.</p>
+							<p><b>Взаимодействие с другими лекарственными средствами и другие формы взаимодействия:</b></p>
+							<p>Йод инактивируется натрия тиосульфатом.</p>
+							<p>Содержащийся в составе препарата йод окисляет металлы, что может приводить к порче металлических инструментов и поверхностей.</p>
+							<p>Фармацевтически несовместим с эфирными маслами, растворами аммиака.</p>
+							<p>Щелочная или кислая реакция, присутствие жира, гноя, крови ослабляет антисептическую активность.</p>
+							<p>В случае попадания препарата внутрь может снижаться действие лекарственных средств, подавляющих функцию щитовидной железы, а также могут изменяться показатели функции щитовидной железы.</p>
+							<p>Препараты йода могут усиливать раздражающее действие некоторых лекарственных средств (в т. ч. ацетилсалициловой кислоты) на слизистую оболочку желудочно-кишечного тракта.</p>
+							<p><b>Форма выпуска:</b></p>
+							<p>Раствор для местного применения 1 %. По 25 мл и 50 мл во флаконах оранжевого стекла с винтовой горловиной для лекарственных средств, укупоренные крышкой с дозатором в комплекте с распылителем с наконечником.</p>
+							<p>Каждый флакон вместе с распылителем с наконечником и инструкцией по медицинскому применению помещают в пачку из картона коробочного типа хром-эрзац.</p>
+							<p><b>Условия хранения:</b></p>
+							<p>Хранить в защищенном от света месте при температуре от 2 °С до 25 °С. Хранить в недоступном для детей месте.</p>
+							<p><b>Срок годности:</b></p>
+							<p>3 года. Не применять препарат по истечении срока годности, указанного на упаковке.</p>
+							<p><b>Условия отпуска из аптек:</b> без рецепта.</p>
+							<div class="table-responsive table-products">
+								<table class="table table-striped table-bordered">
+                  <tr>
+										<th>Продукт</th>
+										<th>Индивидуальная коробка</th>
+										<th>Размер г/я</th>
+										<th>Вес флакона</th>
+										<th>Количество флаконов в г/я</th>
+										<th>Количество флаконов на поддоне</th>
+										<th>Количество г/я на поддоне</th>
+										<th>Штрих-код</th>
+									</tr>
+                  <tr>
+										<td>Люголь, 50 мл</td>
+										<td>40х40х120</td>
+										<td>210х168х126</td>
+										<td>0,133</td>
+										<td>20</td>
+										<td>4000</td>
+										<td>200</td>
+										<td>14620008623594</td>
+									</tr>
+                </table>
+							</div>
+							<!--<p>Антисептическое, дезодорирующее и кровоостанавливающее средство.</p>
+              <span><strong>Фармакологические свойства:</strong></span>
+              <p>Антисептическое средство из группы антиоксидантов. При контакте водорода перекиси с поврежденной кожей или слизистыми оболочками высвобождается активный кислород, при этом происходит механическое очищение и инактивация органических веществ (протеины, кровь, гной). Антисептическое действие не является стерилизующим, при его применении происходит лишь временное уменьшение количества микроорганизмов. Обильное пенообразование способствует тромбообразованию и установке кровотечений из мелких сосудов.</p>
+              <span><strong>Показания к применению:</strong></span>
+              <p>Воспалительные заболеваниях слизистых оболочек, гнойные раны, капиллярное кровотечение из поверхностных ран, носовые кровотечения. Для дезинфекции и дезодорирования: стоматит, ангина, тонзиллит, гинекологические заболевания.</p>
+              <span><strong>Противопоказания:</strong></span>
+              <p>Гиперсувствительность к компонентам препарата.</p>
+              <span><strong>С осторожностью:</strong></span>
+              <p>Декомпенсированные заболевания печени и почек, гипертиреоз, герпетиформный дерматит.</p>
+              <span><strong>Применение при беременности и в период лактации:</strong></span>
+              <p>Препарат не имеет противопоказаний для применения во время беременности и в период лактации.</p>
+              <span><strong>Способ применения и дозы:</strong></span>
+              <p>Для наружного применения используют 1-3% раствор, для полоскания полости рта и горла, нанесения на слизистые оболочки - 0,25% раствор (3% раствор разводят водой в соотношении 1:11).</p>
+              <p>Поврежденные участки кожи или слизистой оболочки обрабатывают ватным или марлевым тампоном, смоченным раствором препарата. Тампоны следует держать пинцетом. Возможно струйное орошение раневой поверхности.</p>
+              <span><strong>Побочное действие:</strong></span>
+              <p>Жжение в момент обработки раны, аллергические реакции.</p>
+              <span><strong>Передозировка:</strong></span>
+              <p>Симптомы: раздражение верхних дыхательных путей (ожог, ларинго-бронхоспазм); при попадании внутрь - раздражение слизистых оболочек желудочно-кишечного тракта, гемолиз, гемоглобинурия; летальная доза - около 3г.</p>
+              <p>Лечение: промывание желудка 0,5% раствором натрия тиосульфата, растворами натрия гидрокарбоната, внутривенно натрия тоисульфат 30% - до 300 мл.</p>
+              <span><strong>Особые указания:</strong></span>
+              <p>Не рекомендуется использовать препарат под окклюзионные повязки.</p>
+              <p>Следует избегать попадания в глаза!</p>
+              <p>Не применять для орошения полостей!</p>
+              <p>Обработка раны раствором перекиси водорода не гарантирует от заражения столбняком и другой раневой инфекцией.</p>
+              <p>3% раствор применяют внутрь в токсикологической практике в качестве антидота (в комбинации с 3% раствором уксусной кислоты) при отравлении калия перманганатом.</p>
+              <span><strong>Взаимодействие с другими лекарственными средствами и другие формы взаимодействия:</strong></span>
+              <p>Раствор перекиси водорода нестабилен в щелочной среде, в присутствии солей металлов, сложных радикалов некоторых оксидантов, а также на свету и в тепле.</p>
+              <span><strong>Влияние на способность кправлять транспортными средствами и механизмами:</strong></span>
+              <p>Не влияет.</p>
+              <span><strong>Форма выпуска:</strong></span>
+              <p>Полиэтиленовый флакон в индивидуальной упаковке. Эстетичный внешний вид, удобен в использовании, исключена опасность разбития. Специальная конусообразная крышка предотвращает протекание при неплотном закручивании.</p>
+              <span><strong>Срок годности:</strong></span>
+              <p>2 года.</p>
+              <p>Не применять препарат по истечении срока годности, указанного на упаковке.</p>
+              <span><strong>Условия хранения:</strong></span>
+              <p>В защищенном от света месте при температуре не выше 25</p>
+              <p>Хранить в недоступном для детей месте.</p>
+              <span><strong>Указание, при необходимости, специальных мер предосторожности при уничтожении неиспользованного препарата:</strong></span>
+              <p>При уничтожении неиспользованного препарата специальных мер предосторожности не требуется.</p>
+              <span><strong>Условия отпуска:</strong></span>
+              <p>Без рецепта.</p>
+              <div class="table-responsive table-products">
+                <table class="table table-striped table-bordered">
+                  <tr><th>Продукт</th><th>Размер коробки, мм</th><th>Количество флаконов в коробке, шт </th><th>Вес флакона в индив. упаковке</th><th>Вес коробки, кг</th><th>Количество коробок на поддоне</th><th>Рядов и коробок в ряду</th><th>Флаконов на поддоне</th><th>Вес поддона с флаконами, кг</th></tr>
+                  <tr><td>Перекись водорода, 3%</td><td>226х226х248</td><td>50</td><td> -- </td><td>6,05</td><td>90</td><td>6 рядов по 15 коробок</td><td>4500</td><td>560</td></tr>
+                </table>
+              </div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- Блок ПРОДУКЦИЯ - конец -->
+
+    <section class="yp-navigation"><!-- Панель НАВИГАЦИИ - начало -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="enhanced-navigation">
+              <span>О компании</span>
+              <ul>
+                <li><a href="about.html#history" class="border-link">История</a></li>
+                <!--<li><a href="about.html#mission" class="border-link">Миссия</a></li>-->
+                <li><a href="about.html#progress" class="border-link">Достижения</a></li>
+                <li><a href="about.html#vacancy" class="border-link">Вакансии</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="enhanced-navigation">
+              <span>Продукция</span>
+              <ul>
+                <li><a href="products.html#solutions" class="border-link">Лекарственные препараты</a></li>
+                <li><a href="products.html#substance" class="border-link">Фармацевтические субстанции</a></li>
+                <li><a href="products.html#dezinfiktant" class="border-link">Дезинфицирующие средства</a></li>
+                <li><a href="products.html#pharmakonadzor" class="border-link">Фармаконадзор</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="enhanced-navigation">
+              <span>Партнерам</span>
+              <ul>
+                <li><a href="partners.html#distributors" class="border-link">Дистрибьюторы</a></li>
+								<!-- <li><a href="partners.html#suppliers" class="border-link">Поставщикам</a></li> -->
+								<li><a href="partners.html#requisites" class="border-link">Реквизиты</a></li>
+              </ul>
+            </div>
+          </div>
+<!--
+          <div class="col-sm-3">
+            <div class="enhanced-navigation social-navigation">
+              <span>Социальные сети</span>
+              <ul>
+                <li><a href="https://www.facebook.com/yuzhpharm"><img src="img/socbutton/fb.png" alt="Официальная страница ЮжФарм в Facebook"></a></li>
+                <li><a href="https://twitter.com/yuzhpharm" target="_blank"><img src="img/socbutton/tw.png" alt="Официальная страница ЮжФарм в Twitter"></a></li>
+                <li><a href="https://plus.google.com/b/109674167801340918287/109674167801340918287/about/p/pub?gmbpt=true&pageId=109674167801340918287&hl=ru" target="_blank"><img src="img/socbutton/gp.png" alt="Официальная страница ЮжФарм в Google+"></a></li>
+                 <li><a href="#"><img src="img/socbutton/rss.png" alt=""></a></li> 
+              </ul>
+            </div>
+          </div>
+-->
+        </div>
+      </div>
+    </section><!-- Панель НАВИГАЦИИ - конец -->
+  </div>
+
+	<footer><!-- ФУТЕР - начало -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="footer-logo-copy">
+						<a href="index.html"><img src="img/logo/logo_128x50.png" alt=""></a>
+						<p>&copy; 2018 ООО &laquo;ЮжФарм&raquo;</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="footer-address-contact">
+						<div class="footer-address">
+							<p><i class="fa fa-home"></i><b>Адрес:</b> 353360, Россия, Краснодарский край, Крымский район, ст. Троицкая, Нефтепромплощадка</p>
+						</div>
+						<div class="footer-phone">
+							<p><i class="fa fa-phone"></i><b>Тел/Факс:</b> +7(86131)5-35-65/2-28-28</p>
+						</div>
+						<div class="footer-mail">
+							<p><i class="fa fa-envelope"></i><b>E-mail:</b> <a href="mailto:info@yuzhpharm.ru" class="border-link">info@yuzhpharm.ru</a></p>
+						</div>
+						<div class="footer-comers-contact">
+							<h5>Отдел продаж:</h5>
+							<p><i class="fa fa-phone"></i><b>Тел:</b> +7(86131)5-35-77, +7(86131)5-35-71, +7(86131)5-35-73, +7(86131)5-35-74, +7(86131)5-35-75</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="footer-dev-yametrik">
+						<!--<p><b>Разработка сайта:</b> <a href="http://sergeylysenko.yuzhpharm.ru" class="border-link">Сергей Лысенко</a></p>-->
+						<!-- Yandex.Metrika informer -->
+						<a href="https://metrika.yandex.ru/stat/?id=35073495&amp;from=informer" class="yametrik"
+						target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/35073495/3_1_FFFFFFFF_FFFFFFFF_0_pageviews"
+						style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:35073495,lang:'ru'});return false}catch(e){}" /></a>
+						<!-- /Yandex.Metrika informer -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer><!-- ФУТЕР - конец -->
+
+	<a href="#" id="uptocall-mini" class="callme_viewform"><div class="uptocall-mini-phone"></div></a>
+
+	<div class="hidden"></div>
+
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
+
+	<script src="callme/js/callme.js"></script>
+
+	<script src="js/common.js"></script>
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+	 (function (d, w, c) {
+	   (w[c] = w[c] || []).push(function() {
+	     try {
+	       w.yaCounter35073495 = new Ya.Metrika({
+	         id:35073495,
+	         clickmap:true,
+	         trackLinks:true,
+	         accurateTrackBounce:true,
+	         webvisor:true,
+	         ut:"noindex"
+	       });
+	     } catch(e) { }
+	   });
+
+	   var n = d.getElementsByTagName("script")[0],
+	     s = d.createElement("script"),
+	     f = function () { n.parentNode.insertBefore(s, n); };
+	   s.type = "text/javascript";
+	   s.async = true;
+	   s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+	   if (w.opera == "[object Opera]") {
+	     d.addEventListener("DOMContentLoaded", f, false);
+	   } else { f(); }
+	 })(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/35073495?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
+  <script>
+    <!-- Begin
+    function GetTime() {
+    var dt = new Date();
+    var def = dt.getTimezoneOffset()/60;
+    var gmt = (dt.getHours() + def);
+    document.clock.local.value = (IfZero(dt.getHours()) + ":" + IfZero(dt.getMinutes()));
+    var ending = ":" + IfZero(dt.getMinutes());
+    var kal =check24(((gmt + 2) > 24) ? ((gmt + 2) - 24) : (gmt + 2));
+    document.clock.Kalin.value = (IfZero(kal) + ending);
+    var msw =check24(((gmt + 3) > 24) ? ((gmt + 3) - 24) : (gmt + 3));
+    document.clock.msw.value = (IfZero(msw) + ending);
+    var sam =check24(((gmt + 4) > 24) ? ((gmt + 4) - 24) : (gmt + 4));
+    document.clock.Samara.value = (IfZero(sam) + ending);
+    var nov =check24(((gmt + 6) > 24) ? ((gmt + 6) - 24) : (gmt + 6));
+    document.clock.Novos.value = (IfZero(nov) + ending);
+    var irk =check24(((gmt + 8) > 24) ? ((gmt + 8) - 24) : (gmt + 8));
+    document.clock.Irk.value = (IfZero(irk) + ending);
+    var yak =check24(((gmt + 9) > 24) ? ((gmt + 9) - 24) : (gmt + 9));
+    document.clock.Yak.value = (IfZero(yak) + ending);
+    var msv =check24(((gmt + 10) > 24) ? ((gmt + 10) - 24) : (gmt + 10));
+    document.clock.msv.value = (IfZero(msv) + ending);
+    var wll =check24(((gmt + 12) > 24) ? ((gmt + 12) - 24) : (gmt + 12));
+    document.clock.wll.value = (IfZero(wll) + ending);
+    setTimeout("GetTime()", 1000);
+    }
+    function IfZero(num) {
+    return ((num <= 9) ? ("0" + num) : num);
+    }
+    function check24(hour) {
+    return (hour >= 24) ? hour - 24 : hour;
+    }
+    //  End -->
+  </script>
+
+</body>
+</html>

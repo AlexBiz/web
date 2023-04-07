@@ -1,0 +1,165 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  h3{font-size:26px;}
+  /*НАВИГАЦИОННЫЙ МАРШРУТ - начало*/
+  .breadcrumb{padding:25px 0;}
+  /*НАВИГАЦИОННЫЙ МАРШРУТ - конец*/
+  /*Настройки ГЛАВНОЙ страницы*/
+  .timezone .container{width:100%;}
+  .yp-header-logo a{margin:0 15px 0 0;}
+  .yp-header-logo h1{padding:0 0 0 15px;}
+  .yp-header-contact .ttp{left:55px;}
+  .navbar-collapse .navbar-nav li a{padding:8px;font-size:19px;}
+  .navbar-collapse .navbar-nav .open .dropdown-menu li{display:block;}
+  .navbar-collapse .navbar-nav .open .dropdown-menu li a{padding:5px 8px;}
+  .carousel-inner .item{max-height:400px;}
+  .carousel-inner .item .carousel-caption{left:10%;right:10%;}
+  .carousel-inner .item .carousel-caption h2{top:-60px;font-size:80px;}
+  .carousel-inner .item .carousel-caption p{top:-50px;font-size:40px;}
+  .yp-navigation .enhanced-navigation span{font-size:16px;font-weight:bold;}
+  /*Настройки ГЛАВНОЙ страницы---КОНЕЦ*/
+  /*Настройки страницы О КОМПАНИИ*/
+  .yp-about .border-link{font-size:16px;}
+  /*Настройки страницы О КОМПАНИИ---КОНЕЦ*/
+  /*Настройки страницы ПРООДУКЦИЯ*/
+  .yp-products .products-block .mark-example li a.border-link{font-size:16px;}
+  /*Настройки страницы ПРОДУКЦИЯ---КОНЕЦ*/
+  /*Настройки страницы ПАРТНЕРАМ*/
+  #vmap{width:940px;height:550px;}
+  /*Настройка страницы ПАРТНЕРАМ---КОНЕЦ*/
+  /*Настройка страницы КОНТАКТЫ*/
+  .map-ya{height:400px;}
+  .table tbody tr td{min-width:230px;}
+  /*Настройка страницы КОНТАКТЫ---КОНЕЦ*/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .container{width:100%;}
+  .timezone .clock span{margin:0 5px;}
+  .yp-header-contact .ttp{left:55px;}
+  .navbar-collapse .navbar-nav li a{padding:8px;}
+  .navbar-collapse .navbar-nav .open .dropdown-menu li a{padding:5px 8px;}
+  .breadcrumb{padding:20px 0;}
+  .carousel-inner .item{max-height:350px;}
+  .carousel-inner .item .carousel-caption h2{top:-40px;font-size:70px;}
+  .carousel-inner .item .carousel-caption p{top:-30px;font-size:36px;}
+  #vmap{width:940px;height:525px;}
+  .map-ya{height:350px;}
+}
+
+@media only screen and (max-width : 950px) {
+  header{border-top:2px solid #8cc000;}
+  .timezone{display:none;}
+  .yp-header-contact .ttp{left:45px;}
+  .navbar-collapse .navbar-nav li a{padding:7.5px;font-size:19px;letter-spacing:-1px;}
+  .navbar-collapse .navbar-nav .open .dropdown-menu li{display:block;}
+  .navbar-collapse .navbar-nav .open .dropdown-menu li a{padding:5px 7.5px;}
+  /*ПАНЕЛЬ НАВИГАЦИИ - начало*/
+  .enhanced-navigation ul li a{font-size:15px;}
+  .yp-navigation .social-navigation a{margin:10px 10px 0 0;}
+  /*ПАНЕЛЬ НАВИГАЦИИ - конец*/
+}
+
+@media only screen and (max-width : 932px) {
+  .yp-header-contact .ttp{left:25px;}
+  .navbar-collapse .navbar-nav li a{padding:7.5px;font-size:19px;letter-spacing:-1px;}
+  .navbar-collapse .navbar-nav .open .dropdown-menu li{display:block;}
+  .navbar-collapse .navbar-nav .open .dropdown-menu li a{padding:5px 7.5px;}
+  /*ПАНЕЛЬ НАВИГАЦИИ - начало*/
+  .enhanced-navigation ul li a{font-size:15px;}
+  .yp-navigation .social-navigation a{margin:10px 10px 0 0;}
+  /*ПАНЕЛЬ НАВИГАЦИИ - конец*/
+  a.btn-link{padding:8px 16px;}
+  #vmap{width:870px;height:500px;}
+}
+
+@media only screen and (max-width : 873px) {
+  .yp-header-logo h1{width:auto;font-size:16px;letter-spacing:1px;}
+  /*.yp-header-logo h1{display:table;width:200px;margin:0;padding:0 0 0 25px;line-height:25px;font-size:18px;color:#3379b7;text-transform:none;letter-spacing:3px;text-shadow:1px 1px 1px rgba(0, 0, 0, .35);border-bottom:none;border-left:2px solid rgba(0, 70, 132, .25);}*/
+  .yp-header-contact .ttp{display:none;}
+  .navbar-collapse .navbar-nav li a{padding:7.5px;font-size:19px;letter-spacing:-1px;}
+  .navbar-collapse .navbar-nav .open .dropdown-menu li{display:block;}
+  .navbar-collapse .navbar-nav .open .dropdown-menu li a{padding:5px 7.5px;}
+  /*ПАНЕЛЬ НАВИГАЦИИ - начало*/
+  .enhanced-navigation ul li a{font-size:15px;}
+  .yp-navigation .social-navigation a{margin:10px 10px 0 0;}
+  /*ПАНЕЛЬ НАВИГАЦИИ - конец*/
+  a.btn-link{padding:8px 16px;}
+  #vmap{display:none;}
+  #distrib-list{display:block;}
+  #distrib-list img{width:75%;height:auto;display:block;margin:0 auto;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.yp-header-logo h1{display: none;}
+  .navbar .navbar-header .navbar-toggle{background:none;border:none;color:#3379b7;font-weight:bold;letter-spacing:1px;text-transform:uppercase;transition-duration:.2s;transition-timing-function:ease-in;}
+  .navbar .navbar-header .navbar-toggle:hover{color:#004684;}
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {border:none;}
+  /*НАВИГАЦИЯ - начало*/
+  .navbar-collapse{text-align:center;}
+  .navbar-collapse .navbar-nav{width:100%;font-size:0;}
+  .navbar-collapse .navbar-nav li{display:table;margin:0 auto;}
+  .navbar-collapse .navbar-nav li.active a{color:#004684;background:none;}
+  .navbar-collapse .navbar-nav li.active a:hover{color:#004684 !important;background:none;}
+  .navbar-collapse .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-collapse .navbar-nav > .open > a:hover{color:#004684 !important;background:none;}
+  .navbar-collapse .navbar-nav .open .dropdown-menu li{text-align:center;}
+  .navbar-collapse .navbar-nav .open .dropdown-menu li a{color:#3379b7;}
+  /*НАВИГАЦИЯ - конец*/
+  .yp-slider{display:none;}
+  /*ПАНЕЛЬ НАВИГАЦИИ - начало*/
+  .enhanced-navigation{text-align: center;}
+  .enhanced-navigation span{font-size:20px !important;}
+  .enhanced-navigation ul{margin-bottom:15px;}
+  .enhanced-navigation ul li a{font-size:18px;}
+  .social-navigation{text-align: center;}
+  .social-navigation ul{margin-bottom: 0;}
+  .social-navigation ul li{display:inline-block;}
+  .social-navigation ul li:last-child a{margin-right:0;}
+  /*ПАНЕЛЬ НАВИГАЦИИ - конец*/
+  /*ФУТЕР-начало*/
+  .footer-logo-copy, .footer-address-contact, .footer-dev-yametrik{text-align:center !important;}
+  .footer-dev-yametrik a.yametrik{margin-bottom:0 !important;}
+  /*ФУТЕР-конец*/
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  
+}
+
+@media only screen and (max-width : 410px) {
+  .yp-header-logo{text-align: center;}
+  .yp-header-logo a{display:block;float:none;margin:0 auto;}
+  .yp-header-contact .tel{display:none;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}

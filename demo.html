@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Пример использования вашей формы</title>
+  <link rel="stylesheet" type="text/css" href="jbcallme/css/blue.jquery.jbform.css">
+</head>
+
+<body>
+			<div id="form_container"></div>
+<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="jbcallme/js/jquery.jbform.js"></script>
+<script type="text/javascript">// <![CDATA[
+jQuery(document).ready(function($){
+  $('#form_container').jbform({ 
+    modal: false,
+    key: "74d478076198ecac1b256432059aacaf",
+    title: "Обратная связь",
+    copyright: false,
+    postfix: "modal_contact",
+    fields: {
+        name: {
+            type: "text",
+            required: true,
+            placeholder: "Ваше имя",
+            wrapper_class: "name-area",
+            input_class: "name-field"
+        },
+        email: {
+            type: "email",
+            required: true,
+            placeholder: "E-mail",
+            wrapper_class: "email-area",
+            input_class: "email-field"
+        },
+        descr: {
+            type: "textarea",
+            label: "Сообщение",
+            wrapper_class: "descr-area",
+            input_class: "descr-field"
+        },
+        submit: {
+            type: "submit",
+            value: "Отправить"
+        }
+    }
+  });
+});  
+// ]]>
+</script>
+		<!--- CHAT START -!-->
+    <div id="telegramSiteHelper_box">
+		<input id="telegramSiteHelper_lastMId" type="hidden" value="">
+		<audio preload="auto" id="telegramSiteHelper_chatSound"><source src="telegramSiteHelper_chat.mp3"></source></audio>
+		<div id="telegramSiteHelper_chatWrapper"><div id="telegramSiteHelper_chatInner"><ul id="telegramSiteHelper_chatMessages"><li id="telegramSiteHelper_firstChatMsg">Если у вас есть вопрос, можете задать его здесь</li></ul></div></div>
+    <input id="telegramSiteHelper_chatTextBox" placeholder="Введите сообщение и нажмите Enter"></input>
+    </div>
+		<!--- CHAT ENDS -!-->
+</body>
+</html>

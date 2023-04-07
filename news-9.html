@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>ЮжФарм - новости|с днем медицинского работника</title>
+	<meta name="description" content="южфарм">
+	<meta name="keywords" content="южфарм">
+	<meta name="author" content="Sergey Lysenko">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Exo+2&subset=cyrillic,latin">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<script src="libs/modernizr/modernizr.js"></script>
+
+</head>
+
+<body onLoad="javascript:GetTime();">
+
+  <header>
+   <div class="timezone">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+          <form name="clock" class="clock">
+            <span>
+              <p><strong>Ваше время</strong></p>
+              <strong><input type="text" size="1" name="local"></strong>
+            </span>
+            <span>
+              <p>Калининград</p>
+              <input type="text" size="1" name="Kalin">
+            </span>
+            <span>
+              <p>Москва</p>
+              <input type="text" size="1" name="msw">
+            </span>
+            <span>
+              <p>Самара/Ижевск</p>
+              <input type="text" size="1" name="Samara">
+            </span>
+            <span>
+              <p>Новосибирск/Омск</p>
+              <input type="text" size="1" name="Novos">
+            </span>
+            <span>
+              <p>Иркутск</p>
+              <input type="text" size="1" name="Irk">
+            </span>
+            <span>
+              <p>Якутск/Чита</p>
+              <input type="text" size="1" name="Yak">
+            </span>
+            <span>
+              <p>Хабаровск/Владивосток</p>
+              <input type="text" size="1" name="msv">
+            </span>
+            <span>
+              <p>Магадан/Камчатский край</p>
+              <input type="text" size="1" name="wll">
+            </span>
+          </form>
+         </div>
+       </div>
+     </div>
+   </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="yp-header-logo">
+            <a href="index.html"><img src="img/logo/logo_192x75.png" alt="..."></a>
+            <h1>Современная Фармацевтика России</h1>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="yp-header-contact">
+            <div class="ttp">
+              <p>Время работы:</p>
+              <p>Пн-Пт с 8:00 до 17:00</p>
+              <p>E-mail: <a href="mailto:info@yuzhpharm.ru" class="border-link">info@yuzhpharm.ru</a></p>
+            </div>
+            <div class="tel">
+              <div class="line">
+                <p><i class="fa fa-phone"></i>5-35-65</p>
+                <p><i class="fa fa-phone"></i>5-35-77</p>
+              </div>
+              <div class="line">
+                <p><i class="fa fa-phone"></i>5-35-71</p>
+                <p><i class="fa fa-phone"></i>5-35-74</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-default" role="navigation">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Меню</button>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html">Главная</a></li>
+                  <li class="dropdown">
+                    <a href="about.html" class="dropdown-toggle" data-toggle="dropdown">О компании <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="about.html#history">История</a></li>
+                      <!--<li><a href="about.html#mission">Миссия</a></li>-->
+                      <li><a href="about.html#progress">Достижения</a></li>
+                      <li><a href="about.html#vacancy">Вакансии</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="products.html">Продукция</a></li>
+                  <li class="active"><a href="news.html">Новости</a></li>
+                  <li class="dropdown">
+                    <a href="partners.html" class="dropdown-toggle" data-toggle="dropdown">Партнерам <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="partners.html#distributors">Дистрибьюторы</a></li>
+                      <!-- <li><a href="partners.html#suppliers">Поставщикам</a></li> -->
+                      <li><a href="partners.html#requisites">Реквизиты</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="certification.html">Сертификаты</a></li>
+                  <li><a href="contact.html">Контакты</a></li>
+                </ul>
+              </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+   <!-- НАВИГАЦИОННЫЙ МАРШРУТ - начало -->
+   <div class="nav-breadcrumb">
+     <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+           <ol class="breadcrumb">
+             <li><a href="index.html">Главная</a></li>
+             <li><a href="news.html">Новости</a></li>
+             <li class="active">День медицинского работника</li>
+           </ol>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- НАВИГАЦИОННЫЙ МАРШРУТ - конец -->
+
+    <section class="yp-news"><!-- Блок НОВОСТИ - начало -->
+      <div class="container">
+        <div class="row">
+          <div class="news-block-title">
+            <h3>Новости</h3>
+          </div>
+          <div class="news-block-article line">
+            <div class="col-sm-12">
+              <div class="news-block">
+                <p class="date">19 июня 2016</p>
+                <a href="news-9.html" class="clear-link">Поздравление с Днем медицинского работника</a>
+                <img src="img/article/news/n_mr.jpg" alt="ЮжФарм поздравляет с днем медицинского работника">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- Блок НОВОСТИ - конец -->
+
+    <section class="yp-navigation"><!-- Панель НАВИГАЦИИ - начало -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="enhanced-navigation">
+              <span>О компании</span>
+              <ul>
+                <li><a href="about.html#history" class="border-link">История</a></li>
+                <!--<li><a href="about.html#mission" class="border-link">Миссия</a></li>-->
+                <li><a href="about.html#progress" class="border-link">Достижения</a></li>
+                <li><a href="about.html#vacancy" class="border-link">Вакансии</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="enhanced-navigation">
+              <span>Продукция</span>
+              <ul>
+                <li><a href="products.html#solutions" class="border-link">Лекарственные препараты</a></li>
+                <li><a href="products.html#substance" class="border-link">Фармацевтические субстанции</a></li>
+                <li><a href="products.html#dezinfiktant" class="border-link">Дезинфицирующие средства</a></li>
+                <li><a href="products.html#pharmakonadzor" class="border-link">Фармаконадзор</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="enhanced-navigation">
+              <span>Партнерам</span>
+              <ul>
+                <li><a href="partners.html#distributors" class="border-link">Дистрибьюторы</a></li>
+								<!-- <li><a href="partners.html#suppliers" class="border-link">Поставщикам</a></li> -->
+								<li><a href="partners.html#requisites" class="border-link">Реквизиты</a></li>
+              </ul>
+            </div>
+          </div>
+<!--
+          <div class="col-sm-3">
+            <div class="enhanced-navigation social-navigation">
+              <span>Социальные сети</span>
+              <ul>
+                <li><a href="https://www.facebook.com/yuzhpharm"><img src="img/socbutton/fb.png" alt="Официальная страница ЮжФарм в Facebook"></a></li>
+                <li><a href="https://twitter.com/yuzhpharm" target="_blank"><img src="img/socbutton/tw.png" alt="Официальная страница ЮжФарм в Twitter"></a></li>
+                <li><a href="https://plus.google.com/b/109674167801340918287/109674167801340918287/about/p/pub?gmbpt=true&pageId=109674167801340918287&hl=ru" target="_blank"><img src="img/socbutton/gp.png" alt="Официальная страница ЮжФарм в Google+"></a></li>
+                 <li><a href="#"><img src="img/socbutton/rss.png" alt=""></a></li> 
+              </ul>
+            </div>
+          </div>
+-->
+        </div>
+      </div>
+    </section><!-- Панель НАВИГАЦИИ - конец -->
+  </div>
+
+	<footer><!-- ФУТЕР - начало -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="footer-logo-copy">
+						<a href="index.html"><img src="img/logo/logo_128x50.png" alt=""></a>
+						<p>&copy; 2018 ООО &laquo;ЮжФарм&raquo;</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="footer-address-contact">
+						<div class="footer-address">
+							<p><i class="fa fa-home"></i><b>Адрес:</b> 353360, Россия, Краснодарский край, Крымский район, ст. Троицкая, Нефтепромплощадка</p>
+						</div>
+						<div class="footer-phone">
+							<p><i class="fa fa-phone"></i><b>Тел/Факс:</b> +7(86131)5-35-65/2-28-28</p>
+						</div>
+						<div class="footer-mail">
+							<p><i class="fa fa-envelope"></i><b>E-mail:</b> <a href="mailto:info@yuzhpharm.ru" class="border-link">info@yuzhpharm.ru</a></p>
+						</div>
+						<div class="footer-comers-contact">
+							<h5>Отдел продаж:</h5>
+							<p><i class="fa fa-phone"></i><b>Тел:</b> +7(86131)5-35-77, +7(86131)5-35-71, +7(86131)5-35-73, +7(86131)5-35-74, +7(86131)5-35-75</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="footer-dev-yametrik">
+						<!--<p><b>Разработка сайта:</b> <a href="http://sergeylysenko.yuzhpharm.ru" class="border-link">Сергей Лысенко</a></p>-->
+						<!-- Yandex.Metrika informer -->
+						<a href="https://metrika.yandex.ru/stat/?id=35073495&amp;from=informer" class="yametrik"
+						target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/35073495/3_1_FFFFFFFF_FFFFFFFF_0_pageviews"
+						style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:35073495,lang:'ru'});return false}catch(e){}" /></a>
+						<!-- /Yandex.Metrika informer -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer><!-- ФУТЕР - конец -->
+
+	<a href="#" id="uptocall-mini" class="callme_viewform"><div class="uptocall-mini-phone"></div></a>
+
+	<div class="hidden"></div>
+
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
+
+	<script src="callme/js/callme.js"></script>
+
+	<script src="js/common.js"></script>
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+	 (function (d, w, c) {
+	   (w[c] = w[c] || []).push(function() {
+	     try {
+	       w.yaCounter35073495 = new Ya.Metrika({
+	         id:35073495,
+	         clickmap:true,
+	         trackLinks:true,
+	         accurateTrackBounce:true,
+	         webvisor:true,
+	         ut:"noindex"
+	       });
+	     } catch(e) { }
+	   });
+
+	   var n = d.getElementsByTagName("script")[0],
+	     s = d.createElement("script"),
+	     f = function () { n.parentNode.insertBefore(s, n); };
+	   s.type = "text/javascript";
+	   s.async = true;
+	   s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+	   if (w.opera == "[object Opera]") {
+	     d.addEventListener("DOMContentLoaded", f, false);
+	   } else { f(); }
+	 })(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/35073495?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
+  <script>
+    <!-- Begin
+    function GetTime() {
+    var dt = new Date();
+    var def = dt.getTimezoneOffset()/60;
+    var gmt = (dt.getHours() + def);
+    document.clock.local.value = (IfZero(dt.getHours()) + ":" + IfZero(dt.getMinutes()));
+    var ending = ":" + IfZero(dt.getMinutes());
+    var kal =check24(((gmt + 2) > 24) ? ((gmt + 2) - 24) : (gmt + 2));
+    document.clock.Kalin.value = (IfZero(kal) + ending);
+    var msw =check24(((gmt + 3) > 24) ? ((gmt + 3) - 24) : (gmt + 3));
+    document.clock.msw.value = (IfZero(msw) + ending);
+    var sam =check24(((gmt + 4) > 24) ? ((gmt + 4) - 24) : (gmt + 4));
+    document.clock.Samara.value = (IfZero(sam) + ending);
+    var nov =check24(((gmt + 6) > 24) ? ((gmt + 6) - 24) : (gmt + 6));
+    document.clock.Novos.value = (IfZero(nov) + ending);
+    var irk =check24(((gmt + 8) > 24) ? ((gmt + 8) - 24) : (gmt + 8));
+    document.clock.Irk.value = (IfZero(irk) + ending);
+    var yak =check24(((gmt + 9) > 24) ? ((gmt + 9) - 24) : (gmt + 9));
+    document.clock.Yak.value = (IfZero(yak) + ending);
+    var msv =check24(((gmt + 10) > 24) ? ((gmt + 10) - 24) : (gmt + 10));
+    document.clock.msv.value = (IfZero(msv) + ending);
+    var wll =check24(((gmt + 12) > 24) ? ((gmt + 12) - 24) : (gmt + 12));
+    document.clock.wll.value = (IfZero(wll) + ending);
+    setTimeout("GetTime()", 1000);
+    }
+    function IfZero(num) {
+    return ((num <= 9) ? ("0" + num) : num);
+    }
+    function check24(hour) {
+    return (hour >= 24) ? hour - 24 : hour;
+    }
+    //  End -->
+  </script>
+
+</body>
+</html>

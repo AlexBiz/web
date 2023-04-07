@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>ЮжФарм - Перекись водорода (O2Active) для бассейна</title>
+	<meta name="description" content="Перекись водорода (O2Active) для бассейна">
+	<meta name="keywords" content="южфарм">
+	<meta name="author" content="Sergey Lysenko">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Exo+2&subset=cyrillic,latin">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<script src="libs/modernizr/modernizr.js"></script>
+
+</head>
+
+<body onLoad="javascript:GetTime();">
+
+  <header>
+   <div class="timezone">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+          <form name="clock" class="clock">
+            <span>
+              <p><strong>Ваше время</strong></p>
+              <strong><input type="text" size="1" name="local"></strong>
+            </span>
+            <span>
+              <p>Калининград</p>
+              <input type="text" size="1" name="Kalin">
+            </span>
+            <span>
+              <p>Москва</p>
+              <input type="text" size="1" name="msw">
+            </span>
+            <span>
+              <p>Самара/Ижевск</p>
+              <input type="text" size="1" name="Samara">
+            </span>
+            <span>
+              <p>Новосибирск/Омск</p>
+              <input type="text" size="1" name="Novos">
+            </span>
+            <span>
+              <p>Иркутск</p>
+              <input type="text" size="1" name="Irk">
+            </span>
+            <span>
+              <p>Якутск/Чита</p>
+              <input type="text" size="1" name="Yak">
+            </span>
+            <span>
+              <p>Хабаровск/Владивосток</p>
+              <input type="text" size="1" name="msv">
+            </span>
+            <span>
+              <p>Магадан/Камчатский край</p>
+              <input type="text" size="1" name="wll">
+            </span>
+          </form>
+         </div>
+       </div>
+     </div>
+   </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="yp-header-logo">
+            <a href="index.html"><img src="img/logo/logo_192x75.png" alt="..."></a>
+            <h1>Современная Фармацевтика России</h1>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="yp-header-contact">
+            <div class="ttp">
+              <p>Время работы:</p>
+              <p>Пн-Пт с 8:00 до 17:00</p>
+              <p>E-mail: <a href="mailto:info@yuzhpharm.ru" class="border-link">info@yuzhpharm.ru</a></p>
+            </div>
+            <div class="tel">
+              <div class="line">
+                <p><i class="fa fa-phone"></i>5-35-65</p>
+                <p><i class="fa fa-phone"></i>5-35-77</p>
+              </div>
+              <div class="line">
+                <p><i class="fa fa-phone"></i>5-35-71</p>
+                <p><i class="fa fa-phone"></i>5-35-74</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-default" role="navigation">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Меню</button>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html">Главная</a></li>
+                  <li class="dropdown">
+                    <a href="about.html" class="dropdown-toggle" data-toggle="dropdown">О компании <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="about.html#history">История</a></li>
+                      <!--<li><a href="about.html#mission">Миссия</a></li>-->
+                      <li><a href="about.html#progress">Достижения</a></li>
+                      <li><a href="about.html#vacancy">Вакансии</a></li>
+                    </ul>
+                  </li>
+                  <li class="active"><a href="products.html">Продукция</a></li>
+                  <li><a href="news.html">Новости</a></li>
+                  <li class="dropdown">
+                    <a href="partners.html" class="dropdown-toggle" data-toggle="dropdown">Партнерам <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="partners.html#distributors">Дистрибьюторы</a></li>
+                      <!-- <li><a href="partners.html#suppliers">Поставщикам</a></li> -->
+                      <li><a href="partners.html#requisites">Реквизиты</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="certification.html">Сертификаты</a></li>
+                  <li><a href="contact.html">Контакты</a></li>
+                </ul>
+              </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+   <!-- НАВИГАЦИОННЫЙ МАРШРУТ - начало -->
+   <div class="nav-breadcrumb">
+     <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+           <ol class="breadcrumb">
+             <li><a href="index.html">Главная</a></li>
+             <li><a href="products.html">Продукция</a></li>
+             <li class="active">O2Active - активный жидкий кислород для дезинфекции воды бассейнов</li>
+           </ol>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- НАВИГАЦИОННЫЙ МАРШРУТ - конец -->
+    <section class="yp-products"><!-- Блок ПРОДУКЦИЯ - начало -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="products-block">
+              <h3>O2Active - активный жидкий кислород для дезинфекции воды бассейнов</h3>
+							<div class="yp-products-imgblock" style="margin:5px 0 15px 0;">
+								<img src="img/catalog/dezinfectanti/o2active.jpg" alt="O2Active - активный жидкий кислород для дезинфекции воды бассейнов">
+              </div>
+              <span><strong>Успешные продажи с O2Active!</strong></span>
+              <p>Пергидроль O2Active – эффективное и безопасное средство для дезинфекции бассейнов.  O2Active является легкорастворимым жидким веществом, не имеет цвета, запаха, есть небольшой металлический привкус. При добавлении в бассейн, вода подвергается процессу окисления, что приводит к эффекту дезинфекции.</p>
+              <p>Купить перекись водорода для бассейна O2Active можно в канистрах: 5л., 10л., 30л. Минимальный оптовый заказ – от 100 литров. Доставка для оптовых клиентов, купивших O2Active объемом от 100 литров БЕСПЛАТНАЯ в города: Краснодар, Славянск-на-Кубани, Новороссийск, Абинск, Крымск, Темрюк.</p>
+              <p>Возможна доставка в любой город России транспортными компаниями: Деловые линии, СДЭК, Байкал сервис, СКИФ Карго, Мейджик Транс, ПЭК, DPD. Стоимость доставки до терминала транспортной компании бесплатная. Цена доставки соответствует тарифам транспортной компании.</p>
+              <p>Самовывоз осуществляется по адресу: Краснодарский край, Крымский район, станица Троицкая, Нефтепромплощадка, ООО «ЮжФарм».</p>
+              <p>Оптовая цена O2Active зависит от закупаемого объема. Заполните форму обратной связи, Вам позвонит наш менеджер и проконсультирует по всем интересующим вопросам.</p>
+              <span><strong>ООО «ЮжФарм» проводит комплексную рекламную и информационную поддержку дистрибьюторов.</strong></span>
+							<p>Мы обеспечим дистрибьютора:</p>
+							<ul class="mark-example">
+								<li>объемной рекламной компанией в сети интернет в поисковых системах Яндекс и Google;</li>
+								<li>рекламной компанией в социальных сетях VKontakte, OK, Facebook, Instagram</li>
+								<li>публикациями информационных статей в тематической прессе;</li>
+								<li>печатными рекламными материалами;</li>
+								<li>размещением адреса точки продаж с контактами на сайте <a href="http://o2active.ru" target="_blank">O2Active.ru</a></li>
+								<li></li>
+								<li></li>
+								<li></li>
+              </ul>
+              <p>А также обеспечим постоянное наличие товара на нашем складе для обеспечения Вашей потребности. А еще можем договориться об отсрочке.</p>
+              <p>Разместите заказ на O2Active прямо сейчас! Скоро начнется сезон бассейнов. Будьте в числе первых.</p>
+              <p>Телефон для справок: <a href="tel:+79180550231">+7(918)055-02-31</a></p>
+
+              
+              <div class="yp-products-imgblock" style="margin:5px 0 15px 0; width: 33%; height: auto;">
+								<img src="img/catalog/dezinfectanti/CGR_O2ACTIVE_2.jpg" alt="O2Active - активный жидкий кислород для дезинфекции воды бассейнов">
+              </div>
+              <div class="yp-products-imgblock" style="margin:5px 0 15px 0; width: 33%; height: auto;">
+								<img src="img/catalog/dezinfectanti/CGR_O2ACTIVE_1.jpg" alt="O2Active - активный жидкий кислород для дезинфекции воды бассейнов">
+              </div>
+              <div class="yp-products-imgblock" style="margin:5px 0 15px 0; width: 33%; height: auto;">
+								<img src="img/catalog/dezinfectanti/CC_О2ACTIVE.jpg" alt="O2Active - активный жидкий кислород для дезинфекции воды бассейнов">
+              </div>
+              
+							<!--<span><strong>Фармакологические свойства:</strong></span>
+              <p><b>Фармакодинамика.</b> Водный раствор хлоргексидина биглюконата является местным антисептиком, с преимущественно бактерицидным действием. Антисептическое средство, в зависимости от используемой концентрации проявляет в отношении грамположительных и грамотрицательных бактерий бактериостатическое или бактерицидное действие. Бактериостатическое действие проявляется в концентрации 0,01% и менее; бактерицидное - в концентрации более 0,01% при температуре 22 С и воздействии в течении 1 минуты. Фунгицидное действие - при концентрации 0,05% при температуре 22 С и воздействии в течении 10 минут. Вирулицидное действие (в отношении дипофильных вирусов) - проявляется при концентрации 0,01-1%.</p>
+              <p>Эффективен в отношении грамположительных и грамотрицательных бактерий, вирусов и грибов. Стабилен, после обработки кожи (рук, операционного поля) сохраняется на ней в некотором количестве, достаточном для проявления бактерицидного эффекта. Сохраняет активность (хотя несколько сниженную) в присутствии крови, гноя, различных секретов и органических веществ.</p>
+              <p>Крайне редко вызывает аллергические реакции, раздражение кожи и тканей, не оказывает повреждающего действия на предметы, изготовленные из стекла, пластмассы и металлов.</p>
+              <p><b>Фармакокинетика.</b> Практически не всасывается из желудочно-кишечного тракта. После случайного проглатывания 300 мг максимальная концентрация достигается через 30 минут и составляет 0,206 мкг/л. Выводится в основном с квыми масс (90%), менее 1% выделяется почками.</p>
+              <p>Препарат не абсорбируется в системный кровоток при местном применении и не оказывает системного действия.</p>
+              <span><strong>Показания к применению:</strong></span>
+              <p>В качестве лечебно-профилактического средства при различных инфекциях, для антисептической обработки и дезинфекции. 0,05% и 0,2% растворы: профилактика инфекций, передаваемых половым путем (хламидиоз, уреаплазмоз, трихомониаз, гонорея, сифилис, генитальный герпес - применение не позднее 2 часов после полового акта); обеззараживание кожных покровов (потертости, трещины).</p>
+              <p>Гнойные раны, инфицированные ожоги, бактериальные т грибковые заболевания кожи и слизистых оболочек, в т.ч. в стоматологии (поласкания и орошения - гингивит, стоматит, афты, пародонтит, альвеолит), хирургии, урологии, акушерстве-гинекологии.</p>
+              <span><strong>Противопоказания:</strong></span>
+              <p>Повышенная чувствительность к хлоргексидину и другим компонентам препарата, дерматиты.</p>
+              <span><strong>С осторожностью:</strong></span>
+              <p>Детский возраст, беременность, период лактации.</p>
+              <span><strong>Применение при беременности и  в период грудного вскармливания:</strong></span>
+              <p>Применение хлоргексидина в период беременности и грудного вскармливания возможно, если предполагаемая польза для матери превышает потенциальный риск для плода или ребенка.</p>
+              <span><strong>Способ применения и дозы:</strong></span>
+              <p>Хлоргексидин в качестве профилактического и лечебного средства используется наружно и местно.</p>
+              <p>0,05% водный раствор применяется в виде орошений, полосканий и аппликаций - 5-10 мл раствора наносят на пораженную поверхность кожи или слизистых оболочек с экспозицией 1-3 минуты 2-3 раза в сутки (на тампоне или путем орошения). Обработку медицинского инструмента и рабочих поверхностей проводят чистой губкой, смоченной раствором антисептика, или путем замачивания. Для профилактики заболеваний, передающихся половым путем, препарат эффективен, если он применяется не позднее 2 часов после полового акта. Содержимое флакона с помощью насадки ввести в мочеиспускательный канал мужчинам (2-3 мл), женщинам (1-2 мл) и во влагалище (5-10 мл) на 2-3 минуты. Обработать кожу внутренних поверхностей бедер, лобка, половых органов. После ппроцедуры не мочиться в течении 2 часов. Комплексное лечение уретритов и уретропростатитов проводят путем впрыскивания в уретру 2-3 мл 0,05% раствора хлоргексидина 1-2 раза в день, курс - 10 дней, процедуры назначают через день.</p>
+              <span><strong>Побочное действие:</strong></span>
+              <p>Ааллергические реакции (кожная сыпь), сухость кожи, зуд, дерматит, липкость кожи рук (в течении 3-5 минут), фотосенсибилизация. При лечении гингивитов - окрашивание эмали зубов, отложение зубного камня, нарушение вкуса.</p>
+              <span><strong>Передозировка:</strong></span>
+              <p>В настоящее время о случаях передозировки при наружном и местном применении не сообщалось; при случайном попадании внутрь практически не абсорбируется (следует сделать промывание желудка, используя молоко, сырое яйцо, желатин). При необходимости проводится симптоматическая терапия.</p>
+              <span><strong>Взаимодействие с другими лекарственными средствами:</strong></span>
+              <p>Применяется в нейтральной среде; при pH 5-8 разница в активности невелика; при pH более 8 выпадает осадок. Применение жесткой воды снижает бактерицидные свойства. Фармацевтически несовместим с мылом, щелочами и др. анионными соединениями (коллоиды, гуммиарабик, карбоксиметилцеллюлоза). Совместим с лекарственными средствами, содержащими катионную группу (бензалкония хлорид, цетримония бромид).</p>
+              <span><strong>Особые указания:</strong></span>
+              <p>У пациентов с открытой черепно-мозговой травмой, повреждениями спинного мозга, перфорацией барабанной перепонки следует избегать попадания на поверхность головного мозга, мозговых оболочек и в полость внутреннего уха. В случае попадания на слизистые оболочки глаза их следует быстро и тщательно промыть водой.</p>
+              <p>Попадание гипохлоритных отбеливающих веществ на ткани, которые ранее находились в контакте с содержащими хлоргексидин препаратами, может способствовать появлению на них коричневых пятен.</p>
+              <p>При температуре выше 100 С препарат частично разлагается.</p>
+              <p>Не рекомендуется одновременное применение с йодом.</p>
+              <p>При уничтожении неиспользованного препарата специальных мер предосторожности не требуется.</p>
+              <span><strong>Влияние на способность управлять транспортными средствами и механизмами:</strong></span>
+              <p>Не изучалось.</p>
+              <span><strong>Срок годности:</strong></span>
+              <p>2 года. Не применять припарат по истечении срока годности, указанного на упаковке.</p>
+              <span><strong>Условия хранения:</strong></span>
+              <p>В защищенном от света месте при температуре не выше 25 С.</p>
+              <p>Хранить в местах, недоступных для детей.</p>
+              <span><strong>Условия отпуска из аптек:</strong></span>
+              <p>Отпуск без рецепта.</p>
+               <div class="table-responsive table-products">
+                <table class="table table-striped table-bordered">
+                  <tr><th>Продукт</th><th>Размер коробки, мм</th><th>Количество флаконов в коробке, шт </th><th>Вес флакона в индив. упаковке</th><th>Вес коробки, кг</th><th>Количество коробок на поддоне</th><th>Рядов и коробок в ряду</th><th>Флаконов на поддоне</th><th>Вес поддона с флаконами, кг</th></tr>
+                  <tr><td>Хлоргексидин, 0,05%</td><td>360х226х248 с прокладкой</td><td>80</td><td>0,12</td><td>9,433</td><td>60</td><td>6 рядов по 10 коробок</td><td>4800</td><td>585</td></tr>
+                </table>
+              </div>
+              <div class="table-responsive table-products">
+                <table class="table table-striped table-bordered">
+                  <tr><th>Продукт</th><th>Размер коробки, мм</th><th>Количество флаконов в коробке, шт </th><th>Вес флакона в индив. упаковке</th><th>Вес коробки, кг</th><th>Количество коробок на поддоне</th><th>Рядов и коробок в ряду</th><th>Флаконов на поддоне</th><th>Вес поддона с флаконами, кг</th></tr>
+                  <tr><td>Хлоргексидин, 0,05% (розовый)</td><td>255х255х270</td><td>50</td><td>0,125</td><td>6,58</td><td>72</td><td>6 рядов по 12 коробок</td><td>3600</td><td>490</td></tr>
+                </table>
+              </div>
+              <div class="table-responsive table-products">
+                <table class="table table-striped table-bordered">
+                  <tr><th>Продукт</th><th>Размер коробки, мм</th><th>Количество флаконов в коробке, шт </th><th>Вес флакона в индив. упаковке</th><th>Вес коробки, кг</th><th>Количество коробок на поддоне</th><th>Рядов и коробок в ряду</th><th>Флаконов на поддоне</th><th>Вес поддона с флаконами, кг</th></tr>
+                  <tr><td>Хлоргексидин, 0,05% (голубой)</td><td>255х255х270</td><td>50</td><td>0,125</td><td>6,58</td><td>72</td><td>6 рядов по 12 коробок</td><td>3600</td><td>490</td></tr>
+                </table>
+              </div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- Блок ПРОДУКЦИЯ - конец -->
+
+    <section class="yp-navigation"><!-- Панель НАВИГАЦИИ - начало -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="enhanced-navigation">
+              <span>О компании</span>
+              <ul>
+                <li><a href="about.html#history" class="border-link">История</a></li>
+                <!--<li><a href="about.html#mission" class="border-link">Миссия</a></li>-->
+                <li><a href="about.html#progress" class="border-link">Достижения</a></li>
+                <li><a href="about.html#vacancy" class="border-link">Вакансии</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="enhanced-navigation">
+              <span>Продукция</span>
+              <ul>
+                <li><a href="products.html#solutions" class="border-link">Лекарственные препараты</a></li>
+                <li><a href="products.html#substance" class="border-link">Фармацевтические субстанции</a></li>
+                <li><a href="products.html#dezinfiktant" class="border-link">Дезинфицирующие средства</a></li>
+                <li><a href="products.html#pharmakonadzor" class="border-link">Фармаконадзор</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="enhanced-navigation">
+              <span>Партнерам</span>
+              <ul>
+                <li><a href="partners.html#distributors" class="border-link">Дистрибьюторы</a></li>
+								<!-- <li><a href="partners.html#suppliers" class="border-link">Поставщикам</a></li> -->
+								<li><a href="partners.html#requisites" class="border-link">Реквизиты</a></li>
+              </ul>
+            </div>
+          </div>
+<!--
+          <div class="col-sm-3">
+            <div class="enhanced-navigation social-navigation">
+              <span>Социальные сети</span>
+              <ul>
+                <li><a href="https://www.facebook.com/yuzhpharm"><img src="img/socbutton/fb.png" alt="Официальная страница ЮжФарм в Facebook"></a></li>
+                <li><a href="https://twitter.com/yuzhpharm" target="_blank"><img src="img/socbutton/tw.png" alt="Официальная страница ЮжФарм в Twitter"></a></li>
+                <li><a href="https://plus.google.com/b/109674167801340918287/109674167801340918287/about/p/pub?gmbpt=true&pageId=109674167801340918287&hl=ru" target="_blank"><img src="img/socbutton/gp.png" alt="Официальная страница ЮжФарм в Google+"></a></li>
+                 <li><a href="#"><img src="img/socbutton/rss.png" alt=""></a></li> 
+              </ul>
+            </div>
+          </div>
+-->
+        </div>
+      </div>
+    </section><!-- Панель НАВИГАЦИИ - конец -->
+  </div>
+
+	<footer><!-- ФУТЕР - начало -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="footer-logo-copy">
+						<a href="index.html"><img src="img/logo/logo_128x50.png" alt=""></a>
+						<p>&copy; 2018 ООО &laquo;ЮжФарм&raquo;</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="footer-address-contact">
+						<div class="footer-address">
+							<p><i class="fa fa-home"></i><b>Адрес:</b> 353360, Россия, Краснодарский край, Крымский район, ст. Троицкая, Нефтепромплощадка</p>
+						</div>
+						<div class="footer-phone">
+							<p><i class="fa fa-phone"></i><b>Тел/Факс:</b> +7(86131)5-35-65/2-28-28</p>
+						</div>
+						<div class="footer-mail">
+							<p><i class="fa fa-envelope"></i><b>E-mail:</b> <a href="mailto:info@yuzhpharm.ru" class="border-link">info@yuzhpharm.ru</a></p>
+						</div>
+						<div class="footer-comers-contact">
+							<h5>Отдел продаж:</h5>
+							<p><i class="fa fa-phone"></i><b>Тел:</b> +7(86131)5-35-77, +7(86131)5-35-71, +7(86131)5-35-73, +7(86131)5-35-74, +7(86131)5-35-75</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="footer-dev-yametrik">
+						<!--<p><b>Разработка сайта:</b> <a href="http://sergeylysenko.yuzhpharm.ru" class="border-link">Сергей Лысенко</a></p>-->
+						<!-- Yandex.Metrika informer -->
+						<a href="https://metrika.yandex.ru/stat/?id=35073495&amp;from=informer" class="yametrik"
+						target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/35073495/3_1_FFFFFFFF_FFFFFFFF_0_pageviews"
+						style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:35073495,lang:'ru'});return false}catch(e){}" /></a>
+						<!-- /Yandex.Metrika informer -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer><!-- ФУТЕР - конец -->
+
+	<a href="#" id="uptocall-mini" class="callme_viewform"><div class="uptocall-mini-phone"></div></a>
+
+	<div class="hidden"></div>
+
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
+
+	<script src="callme/js/callme.js"></script>
+
+	<script src="js/common.js"></script>
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+	 (function (d, w, c) {
+	   (w[c] = w[c] || []).push(function() {
+	     try {
+	       w.yaCounter35073495 = new Ya.Metrika({
+	         id:35073495,
+	         clickmap:true,
+	         trackLinks:true,
+	         accurateTrackBounce:true,
+	         webvisor:true,
+	         ut:"noindex"
+	       });
+	     } catch(e) { }
+	   });
+
+	   var n = d.getElementsByTagName("script")[0],
+	     s = d.createElement("script"),
+	     f = function () { n.parentNode.insertBefore(s, n); };
+	   s.type = "text/javascript";
+	   s.async = true;
+	   s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+	   if (w.opera == "[object Opera]") {
+	     d.addEventListener("DOMContentLoaded", f, false);
+	   } else { f(); }
+	 })(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/35073495?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
+  <script>
+    <!-- Begin
+    function GetTime() {
+    var dt = new Date();
+    var def = dt.getTimezoneOffset()/60;
+    var gmt = (dt.getHours() + def);
+    document.clock.local.value = (IfZero(dt.getHours()) + ":" + IfZero(dt.getMinutes()));
+    var ending = ":" + IfZero(dt.getMinutes());
+    var kal =check24(((gmt + 2) > 24) ? ((gmt + 2) - 24) : (gmt + 2));
+    document.clock.Kalin.value = (IfZero(kal) + ending);
+    var msw =check24(((gmt + 3) > 24) ? ((gmt + 3) - 24) : (gmt + 3));
+    document.clock.msw.value = (IfZero(msw) + ending);
+    var sam =check24(((gmt + 4) > 24) ? ((gmt + 4) - 24) : (gmt + 4));
+    document.clock.Samara.value = (IfZero(sam) + ending);
+    var nov =check24(((gmt + 6) > 24) ? ((gmt + 6) - 24) : (gmt + 6));
+    document.clock.Novos.value = (IfZero(nov) + ending);
+    var irk =check24(((gmt + 8) > 24) ? ((gmt + 8) - 24) : (gmt + 8));
+    document.clock.Irk.value = (IfZero(irk) + ending);
+    var yak =check24(((gmt + 9) > 24) ? ((gmt + 9) - 24) : (gmt + 9));
+    document.clock.Yak.value = (IfZero(yak) + ending);
+    var msv =check24(((gmt + 10) > 24) ? ((gmt + 10) - 24) : (gmt + 10));
+    document.clock.msv.value = (IfZero(msv) + ending);
+    var wll =check24(((gmt + 12) > 24) ? ((gmt + 12) - 24) : (gmt + 12));
+    document.clock.wll.value = (IfZero(wll) + ending);
+    setTimeout("GetTime()", 1000);
+    }
+    function IfZero(num) {
+    return ((num <= 9) ? ("0" + num) : num);
+    }
+    function check24(hour) {
+    return (hour >= 24) ? hour - 24 : hour;
+    }
+    //  End -->
+  </script>
+
+</body>
+</html>
